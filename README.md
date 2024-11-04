@@ -19,6 +19,9 @@ Qubits as Channels: We can assign two qubits to represent SDA and SCL.
 Quantum Gates: We’ll use X, H, and CX (CNOT) gates to simulate changes, such as "start," "stop," and "bit transmission."
 Quantum Circuit: The sequence will follow the original logic in your I2C script.
 
+![Quantum_optics_signals_dark_matter](https://github.com/victor0989/Black_holes-Quantum_Optics_FPGA/blob/main/FPGA_I2C_PROTOCOL/Captura%20de%20pantalla%202024-09-22%20235917.png?raw=true)
+
+
 # Other Quantum projects include these technologies
 1. Intel 9 processors features, parallelization, vectorization techniques
 2. Zephyr RTOS to investigate Realtime systems
