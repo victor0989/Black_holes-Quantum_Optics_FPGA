@@ -9,6 +9,9 @@ Exploring quantum circuits by combining Non-Hermitian photonic band winding, ski
  simulate the signals from your I2C-inspired Python script using quantum channels and gates in Qiskit, we’ll convert the concept of digital signal states into quantum states. We’ll use qubits to represent SDA and SCL channels, encoding "high" and "low" states as quantum states 
 ∣0⟩∣0⟩ and ∣1⟩ ∣1⟩. 
 
+![Circuit](https://github.com/victor0989/Black_holes-Quantum_Optics_FPGA/blob/main/Quantum_decoder_signals_GNSS.png?raw=true)
+
+
 The start and stop conditions, as well as the clock pulses, will correspond to specific operations on these qubits, simulating transitions through quantum gates.
 
 # Concept Overview
