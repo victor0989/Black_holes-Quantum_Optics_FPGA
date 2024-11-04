@@ -1,0 +1,16 @@
+Starting START condition
+SDA goes low SDA: 0 SCL: 1
+Sending bit: 1 SDA: 1 SCL: 1
+SCL goes low SDA: 1 SCL: 0
+SCL goes high SDA: 1 SCL: 1
+Sending bit: 0 SDA: 0 SCL: 1
+SCL goes low SDA: 0 SCL: 0
+SCL goes high SDA: 0 SCL: 1
+Sending bit: 1 SDA: 1 SCL: 1
+SCL goes low SDA: 1 SCL: 0
+SCL goes high SDA: 1 SCL: 1
+Sending bit: 1 SDA: 1 SCL: 1
+SCL goes low SDA: 1 SCL: 0
+SCL goes high SDA: 1 SCL: 1
+Starting STOP condition
+SDA goes high SDA: 1 SCL: 1
