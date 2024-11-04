@@ -48,6 +48,9 @@ Quantum Circuit: The sequence will follow the original logic in your I2C script.
 3. VHDL for creating signals
 4. Communication in Qiskit circuits
 
+![Math_periodical_conditions](https://github.com/victor0989/Black_holes-Quantum_Optics_FPGA/blob/main/RS232_peripherals_analysis_signals/Periodic_conditions_math.png?raw=true)
+
+
 # Explanation of the Qiskit Code
 
 Start Condition: Sets SDA to low (|0⟩) while keeping SCL high (|1⟩), simulating the beginning of communication.
