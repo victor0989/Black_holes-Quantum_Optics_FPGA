@@ -19,10 +19,11 @@ Qubits as Channels: We can assign two qubits to represent SDA and SCL.
 Quantum Gates: We’ll use X, H, and CX (CNOT) gates to simulate changes, such as "start," "stop," and "bit transmission."
 Quantum Circuit: The sequence will follow the original logic in your I2C script.
 
-# Intel 9 processors features, parallelization, vectorization techniques
-# Zephyr RTOS to investigate Realtime systems
-# VHDL for creating signals
-# Communication in Qiskit circuits
+# Other Quantum projects include these technologies
+1. Intel 9 processors features, parallelization, vectorization techniques
+2. Zephyr RTOS to investigate Realtime systems
+3. VHDL for creating signals
+4. Communication in Qiskit circuits
 
 # Explanation of the Qiskit Code
 
