@@ -42,4 +42,31 @@ RS232 communication is useful for transmitting data, such as the results of your
 
 The resulting histogram will give you the probability distribution of final states, representing the state of the SDA and SCL channels after running through the transmission steps. This helps analyze the effects of each state transition in a quantum format. You can adapt this model to visualize or measure intermediate states, representing different parts of the communication sequence.
 
+# Code
+Code Description:
+Inputs and Outputs:
+
+clk: Clock signal that controls the operation of the transmitter.
+reset: Reset signal to restart the state of the transmitter.
+tx_data: 8-bit data to be sent through the RS232 line.
+start_tx: Signal that initiates the data transmission.
+tx: Transmission line to send the data serially.
+busy: Indicator that shows whether the transmitter is busy.
+Constants:
+
+CLK_FREQ: Clock frequency (adjustable according to your design).
+BAUD_RATE: Baud rate for communication.
+Finite State Machine (FSM):
+
+Different states (IDLE, START, DATA, STOP) are used to control the sequence of transmission.
+Transmission Process:
+
+Upon receiving start_tx, the system begins to send the data in serial format.
+The transmission of the start bit, data bits, and stop bit is managed.
+How to Use It create a new project in Vivado and add this code in a new VHDL file.
+
+Compile the design and ensure there are no errors.
+Configure the Artix-7 device and assign the input/output signals to the appropriate pins in the design.
+Simulate the design to verify the data transmission.
+
 This approach isn’t a direct analog to classical signals but provides insight into how quantum channels and logic gates can represent the same transitions in a quantum framework.
