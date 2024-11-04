@@ -37,6 +37,9 @@ Send Bit: Adjusts SDA according to the bit value (0 or 1) and follows it with a 
 Stop Condition: Sets SDA high while SCL is high, signaling the end of communication.
 Output and Simulation
 
+# RS232 Serial Communication in VHDL
+RS232 communication is useful for transmitting data, such as the results of your FIR filter, from the FPGA to a computer or other device. Here is an example of an RS232 transmitter.
+
 The resulting histogram will give you the probability distribution of final states, representing the state of the SDA and SCL channels after running through the transmission steps. This helps analyze the effects of each state transition in a quantum format. You can adapt this model to visualize or measure intermediate states, representing different parts of the communication sequence.
 
 This approach isn’t a direct analog to classical signals but provides insight into how quantum channels and logic gates can represent the same transitions in a quantum framework.
