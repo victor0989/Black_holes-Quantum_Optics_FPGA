@@ -2,7 +2,8 @@
 Quantum Optical Structures and Black Hole Tensors in FPGA Circuits: A Comprehensive Guides 
 
 Exploring quantum circuits by combining Non-Hermitian photonic band winding, skin effects, dark matter properties, and Hamiltonian synthesis equations.
-Quantum circuit: https://github.com/victor0989/Black_holes-Quantum_Optics_FPGA/blob/main/FPGA_I2C_PROTOCOL/Quantum%20Circuit.png?raw=true
+![Quantum circuit signals and channels analysis](https://github.com/victor0989/Black_holes-Quantum_Optics_FPGA/blob/main/FPGA_I2C_PROTOCOL/Quantum%20Circuit.png?raw=true)
+
 
 # Practical: Qiskit, VHDL
  simulate the signals from your I2C-inspired Python script using quantum channels and gates in Qiskit, we’ll convert the concept of digital signal states into quantum states. We’ll use qubits to represent SDA and SCL channels, encoding "high" and "low" states as quantum states 
