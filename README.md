@@ -88,6 +88,10 @@ Upon receiving start_tx, the system begins to send the data in serial format.
 The transmission of the start bit, data bits, and stop bit is managed.
 How to Use It create a new project in Vivado and add this code in a new VHDL file.
 
+# OPTICS_MODEL_IMAGE
+![Detection_of_DIMENSIONS_OPTICS_SIGNALS](https://github.com/victor0989/Black_holes-Quantum_Optics_FPGA/blob/main/RS232_peripherals_analysis_signals/OPTICS_SIGNALS_DETECTION.png?raw=true)
+
+
 # Compile design parameters
 Compile the design and ensure there are no errors.
 Configure the Artix-7 device and assign the input/output signals to the appropriate pins in the design.
