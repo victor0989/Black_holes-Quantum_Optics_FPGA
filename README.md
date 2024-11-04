@@ -4,6 +4,23 @@ Quantum Optical Structures and Black Hole Tensors in FPGA Circuits: A Comprehens
 Exploring quantum circuits by combining Non-Hermitian photonic band winding, skin effects, dark matter properties, and Hamiltonian synthesis equations.
 ![Quantum circuit signals and channels analysis](https://github.com/victor0989/Black_holes-Quantum_Optics_FPGA/blob/main/FPGA_I2C_PROTOCOL/Quantum%20Circuit.png?raw=true)
 
+# Small steps -short -guide
+Guide for Filtering Frequencies of Space Signals
+Initial Preparations
+
+1. Install Necessary Software:
+2. Python: Make sure you have Python installed (preferably version 3.7 or higher).
+3. Python Libraries:
+[pip install numpy scipy matplotlib qiskit]
+
+# VHDL and Tools: Ensure you have a VHDL development environment, such as ModelSim or Xilinx ISE, to simulate and test your VHDL circuits.
+Set Up Your Environment:
+If you plan to use Docker or Kubernetes, install and configure Docker on your system. Consider using Docker Compose to facilitate the management of multiple containers.
+Modeling and Filtering Signals in Python
+
+# Acquire and Preprocess the Signals:
+Simulate or use data from signals coming from the telescope.
+You can simulate data using NumPy.
 
 # Practical: Qiskit, VHDL
  simulate the signals from your I2C-inspired Python script using quantum channels and gates in Qiskit, we’ll convert the concept of digital signal states into quantum states. We’ll use qubits to represent SDA and SCL channels, encoding "high" and "low" states as quantum states 
@@ -46,7 +63,7 @@ The resulting histogram will give you the probability distribution of final stat
 Code Description:
 Inputs and Outputs:
 
-clk: Clock signal that controls the operation of the transmitter.
+# clk: Clock signal that controls the operation of the transmitter.
 reset: Reset signal to restart the state of the transmitter.
 tx_data: 8-bit data to be sent through the RS232 line.
 start_tx: Signal that initiates the data transmission.
@@ -54,17 +71,21 @@ tx: Transmission line to send the data serially.
 busy: Indicator that shows whether the transmitter is busy.
 Constants:
 
+# Frequency
 CLK_FREQ: Clock frequency (adjustable according to your design).
 BAUD_RATE: Baud rate for communication.
 Finite State Machine (FSM):
 
+# States
 Different states (IDLE, START, DATA, STOP) are used to control the sequence of transmission.
 Transmission Process:
 
+# TX_signals
 Upon receiving start_tx, the system begins to send the data in serial format.
 The transmission of the start bit, data bits, and stop bit is managed.
 How to Use It create a new project in Vivado and add this code in a new VHDL file.
 
+# Compile design parameters
 Compile the design and ensure there are no errors.
 Configure the Artix-7 device and assign the input/output signals to the appropriate pins in the design.
 Simulate the design to verify the data transmission.
