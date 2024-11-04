@@ -18,12 +18,15 @@ Set Up Your Environment:
 If you plan to use Docker or Kubernetes, install and configure Docker on your system. Consider using Docker Compose to facilitate the management of multiple containers.
 Modeling and Filtering Signals in Python
 
+# QUANTUM MODELS
+![States, quantum_dimensions](https://github.com/victor0989/Black_holes-Quantum_Optics_FPGA/blob/main/GNSS/Quantum_model.png?raw=true)
+
 # Acquire and Preprocess the Signals:
 Simulate or use data from signals coming from the telescope.
 You can simulate data using NumPy.
 
 # Practical: Qiskit, VHDL
- simulate the signals from your I2C-inspired Python script using quantum channels and gates in Qiskit, we’ll convert the concept of digital signal states into quantum states. We’ll use qubits to represent SDA and SCL channels, encoding "high" and "low" states as quantum states 
+simulate the signals from your I2C-inspired Python script using quantum channels and gates in Qiskit, we’ll convert the concept of digital signal states into quantum states. We’ll use qubits to represent SDA and SCL channels, encoding "high" and "low" states as quantum states 
 ∣0⟩∣0⟩ and ∣1⟩ ∣1⟩. 
 
 ![Circuit](https://github.com/victor0989/Black_holes-Quantum_Optics_FPGA/blob/main/Quantum_decoder_signals_GNSS.png?raw=true)
