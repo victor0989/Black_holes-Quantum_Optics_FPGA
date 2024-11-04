@@ -1,6 +1,9 @@
 # Black_holes-Quantum_Optics_FPGA
-Quantum Optical Structures and Black Hole Tensors in FPGA Circuits: A Comprehensive Guides
-Combining concepts of dark matter, quantum optics, and non-Hermitian photonics can lead to intriguing theoretical models and practical applications. Here’s how you might approach integrating these concepts:
+![Galaxy Cluster](https://github.com/victor0989/Black_holes-Quantum_Optics_FPGA/blob/main/GNSS/galaxy_cluster.png?raw=true)
+*This galaxy cluster illustrates the structure and distribution of matter in the universe, which is fundamental for studies in quantum optics and astrophysics.*
+
+# Quantum Optical Structures and Black Hole Tensors in FPGA Circuits: A Comprehensive Guides
+Concept: Combining concepts of dark matter, quantum optics, and non-Hermitian photonics can lead to intriguing theoretical models and practical applications. Here’s how you might approach integrating these concepts:
 
 1. Understanding Dark Matter and Quantum Optics
 Dark Matter: It is believed to make up about 27% of the universe's mass-energy content but does not emit light or energy that we can detect directly. Its presence is inferred from gravitational effects on visible matter, radiation, and the large-scale structure of the universe.
